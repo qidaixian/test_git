@@ -16,6 +16,7 @@ public class ChangeLock {
 				Thread.sleep(2000);
 				System.out.println("当前线程 : "  + Thread.currentThread().getName() + "结束");
 				System.out.println("1111111111111");
+				System.out.println("提交22222");
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
